@@ -7,9 +7,6 @@
 #include <cstdlib>
 using namespace std;
 
-
-
-
 void lab6()
 {
     cout << "6.1 Двумерный массив со случайными числами" << endl;
@@ -147,6 +144,7 @@ void degree(int a, int x) {
     }
     cout << a << endl<< endl;
 }
+
 void recdegree(double a, int x) {
     if (x != 0) {
         a *= a;
@@ -219,7 +217,6 @@ void lab9() {
 
 }
 
-
 void lab10()
 {
     cout << "10.1,2 Открытие файла и чтение его содержимого" << endl;
@@ -249,6 +246,7 @@ void lab10()
     fs.open(file1, ios::out);
     fs << text;
 }
+
 struct Student
 {
     string fio;
@@ -256,6 +254,7 @@ struct Student
     int course;
 
 };
+
 void lab12() {
     Student students[6];
     string names[4]{ "Артемий", "Анастасия", "Юрий", "Никита"};
@@ -305,8 +304,8 @@ void lab12() {
     }
     cout << "Количество студентов на " << courseu << " курсе со специальностью " << profu << " - " << temp << endl;
 }
-//void lab13();
 
+//void lab13();
 
 int main()
 {
